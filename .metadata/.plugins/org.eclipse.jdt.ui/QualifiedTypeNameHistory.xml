@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.time.Period"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="br.sp.empresa.App"/>
+<fullyQualifiedTypeName name="java.lang.Appendable"/>
+<fullyQualifiedTypeName name="br.sp.empresa.App2"/>
+<fullyQualifiedTypeName name="br.sp.empresa.model.App2"/>
+<fullyQualifiedTypeName name="br.sp.empresa.model.App"/>
+<fullyQualifiedTypeName name="br.sp.empresa.gui.FrameAluno"/>
+<fullyQualifiedTypeName name="br.sp.empresa.Aluno"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JFormattedTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JRadioButton"/>
+<fullyQualifiedTypeName name="javax.swing.ButtonGroup"/>
+<fullyQualifiedTypeName name="javax.swing.JComboBox"/>
+</qualifiedTypeNameHistroy>

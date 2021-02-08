@@ -1,0 +1,41 @@
+package br.sp.empresa.model;
+
+import java.time.LocalDate;
+
+import br.sp.empresa.Aluno;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Aluno alana = new Aluno();
+		
+		alana.setNome("Alana");
+		alana.setPeso(45);
+		alana.setAltura(1.50);
+		alana.setdataNascimento(LocalDate.of(2001, 9, 27));
+		alana.setSexo("Feminino");
+		alana.setNivelAtividade("Moderado");
+		alana.setCalcularNcd(14.7*45+496);
+		
+		
+		System.out.println("Nome: " + alana.getNome());
+		System.out.println("Idade: " + alana.getidade());
+		System.out.println("IMC: " +  alana.getCalcularImc());
+		System.out.println("NCD: "+ alana.getCalcularNcd());
+		System.out.println("Situação:" +  alana.getStatusImc());
+		
+		
+		
+		Aluno alice = new Aluno();
+		
+		alice.setNome("Alice :");
+		alice.setPeso(60);
+		alice.setAltura(1.64);
+		alice.setdataNascimento(LocalDate.of(1999, 6, 10));
+		alice.setSexo("Feminino");
+		alice.setNivelAtividade("Nenhum");
+		alice.setCalcularNcd(14.7*60+496);
+	}
+
+}

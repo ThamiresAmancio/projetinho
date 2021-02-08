@@ -1,0 +1,108 @@
+package br.sp.empresa;
+
+import java.time.LocalDate;
+import java.time.Period;
+
+public class Aluno {
+	private String nome;
+	private int peso;
+	private double altura;
+	private String sexo;
+	private LocalDate dataNascimento;
+	private String nivelAtividade;
+	private double calcularImc;
+	private double calcularNcd;
+	private String statusImc;
+	
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public void setPeso(int peso) {
+		this.peso = peso;
+	}
+	
+	public int getPeso() {
+		return this.peso;
+	}
+	
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+	
+	public double getAltura() {
+		return this.altura;
+	}
+	
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	
+	public String getSexo() {
+		return this.sexo;
+	}
+	
+	public void setdataNascimento(LocalDate dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+	
+	
+	public LocalDate getDataNascimento() {
+		return this.dataNascimento;
+	}
+	  
+	public  int getidade() {
+		LocalDate hoje = LocalDate.now();
+			Period period = Period.between(this.dataNascimento,hoje);
+			return period.getYears();
+		}
+	
+	public void setNivelAtividade(String nivelAtividade) {
+		this.nivelAtividade = nivelAtividade;
+	}
+	
+	public String getNivelAtividade() {
+		return this.nivelAtividade;
+	}
+	
+	public void setCalcularImc(double calcularImc) {
+		this.calcularImc = calcularImc;
+	}
+	
+	public double getCalcularImc() {
+		return this.peso/(this.altura*this.altura);
+	}
+	
+	public void setCalcularNcd(double calcularNcd) {
+		this.calcularNcd = calcularNcd;
+	}
+	
+	
+	public double getCalcularNcd() {
+		return 14.7*this.peso+496;
+	}
+	public void setStatusImc(String statusImc) {
+		this.statusImc = statusImc;
+	}
+	
+	public String getStatusImc() {
+		return statusImc;
+		
+	}
+	
+}	
+		
+
+		
+	
+	
+	
+	
+
+
+	

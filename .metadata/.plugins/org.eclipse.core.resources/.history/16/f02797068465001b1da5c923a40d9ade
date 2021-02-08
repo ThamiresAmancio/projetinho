@@ -1,0 +1,24 @@
+package br.sp.empresa.model;
+
+import java.time.LocalDate;
+
+import br.sp.empresa.Aluno;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Aluno alana = new Aluno();
+		
+		alana.setNome("Alana");
+		alana.setPeso(45);
+		alana.setAltura(1.50);
+		alana.setDataNascimento(LocalDate.of(2004, 6, 10));
+		alana.setSexo("Feminino");
+		alana.setNivelAtividade("Moderado");
+		
+		
+		System.out.println("Idade:" + alana.getIdade);
+	}
+
+}
